@@ -1,0 +1,19 @@
+{
+  // sk_testbot: 'removed'
+  // swingKingBot: 'removed'
+  "token": "removed",
+  "prefix": "!",
+  "eodDataToken": "removed",
+
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}

@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="intrinio-csharp-sdk-ce17b1f\**" />
+    <Compile Remove="packages\**" />
+    <EmbeddedResource Remove="intrinio-csharp-sdk-ce17b1f\**" />
+    <EmbeddedResource Remove="packages\**" />
+    <None Remove="intrinio-csharp-sdk-ce17b1f\**" />
+    <None Remove="packages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DSharpPlus" Version="4.0.0-nightly-00672" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.0.0-nightly-00672" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="4.0.0-nightly-00672" />
+    <PackageReference Include="Intrinio.SDK" Version="5.1.0" />
+    <PackageReference Include="Microsoft.Xrm.Sdk.2015" Version="7.1.0.1085" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.0.0-alpha05" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="80.0.3987.10600" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>
