@@ -26,7 +26,7 @@
     <PackageReference Include="DSharpPlus.Interactivity" Version="4.0.0-nightly-00672" />
     <PackageReference Include="Intrinio.SDK" Version="5.1.0" />
     <PackageReference Include="Microsoft.Xrm.Sdk.2015" Version="7.1.0.1085" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Selenium.Support" Version="3.141.0" />
     <PackageReference Include="Selenium.WebDriver" Version="4.0.0-alpha05" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="80.0.3987.10600" />
